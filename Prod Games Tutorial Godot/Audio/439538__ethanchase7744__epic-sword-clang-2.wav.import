@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/439538__ethanchase7744__epic-sword-clang-2.wav-48618b56a8f7cf8c2c8e1706e4fb088a.sample"
+
+[deps]
+
+source_file="res://Audio/439538__ethanchase7744__epic-sword-clang-2.wav"
+dest_files=[ "res://.import/439538__ethanchase7744__epic-sword-clang-2.wav-48618b56a8f7cf8c2c8e1706e4fb088a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -19,6 +19,7 @@
 - [Aula 1](https://drive.google.com/file/d/1c1VkL5z88CL4RqGvvDZz8flYNC5nRtOj/view)
 - Aula 2 (Esqueci de gravar :/)
 - [Aula 3](https://drive.google.com/file/d/16d-bkbP7QrB4C9-iL_VGswoNDWNpBHXb/view)
+- [Aula 4](https://drive.google.com/file/d/1Y5d9XvzodYs0EK1eLhPiweS0SOv5-611/view)
 
 ## Recursos :
 

@@ -20,6 +20,7 @@
 - Aula 2 (Esqueci de gravar :/)
 - [Aula 3](https://drive.google.com/file/d/16d-bkbP7QrB4C9-iL_VGswoNDWNpBHXb/view)
 - [Aula 4](https://drive.google.com/file/d/1Y5d9XvzodYs0EK1eLhPiweS0SOv5-611/view)
+- [Aula 5](https://drive.google.com/file/d/1RjxHcsnuEZ32D7UzaeNBNtEdwJ4D_LqC/view)
 
 ## Recursos :
 

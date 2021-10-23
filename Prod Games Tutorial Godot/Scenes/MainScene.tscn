@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Scripts/MainScene.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Sprite/Terrain/Platforms (32x32).png" type="Texture" id=3]
 [ext_resource path="res://Scenes/Enemy.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Scenes/TileMap.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/ItemDiamante.tscn" type="PackedScene" id=7]
 
 [sub_resource type="SegmentShape2D" id=1]
 a = Vector2( -59.5228, -1.79676 )
@@ -33,3 +34,6 @@ texture = ExtResource( 3 )
 position = Vector2( -1.10266, 5.16475 )
 shape = SubResource( 1 )
 one_way_collision = true
+
+[node name="ItemDiamante" parent="." instance=ExtResource( 7 )]
+position = Vector2( 570.773, 244.935 )

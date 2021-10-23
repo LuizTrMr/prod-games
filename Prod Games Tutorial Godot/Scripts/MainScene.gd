@@ -12,6 +12,7 @@ var poder = false
 
 const VELOCIDADE = 200
 
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass
@@ -27,16 +28,13 @@ class Pessoa :
 	var nome : String
 	var idade : int
 	var altura : float
+	
 
 	func saudacao() :
 		print("Oi")
 
 class Crianca extends Pessoa: # extends <-> herda
 	var brinquedo
-
-
-
-
 
 
 

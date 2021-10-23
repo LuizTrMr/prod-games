@@ -5,6 +5,8 @@ extends KinematicBody2D
 var vel : Vector2
 var goal_speed = 0
 var is_attacking : bool = false
+var is_jumping = false
+var grounded : bool
 
 # Export Var
 export var speed : int = 200
@@ -41,21 +43,27 @@ func _process(delta):
 		execute_attack1()
 
 func _physics_process(delta):
-	vel.x = lerp(vel.x, goal_speed, lerp_rate) # 
+	vel.x = lerp(vel.x, goal_speed, lerp_rate)
 	vel = move_and_slide(vel, Vector2.UP) # (0,-1)
 	vel.y += GRAVITY * delta # 2000 * 0.016666
 
 
 func handle_animation():
 	if !is_attacking:
-		if floor( abs(vel.x) ) == 0:
-			$AnimatedSprite.play("idle")
+		if vel.x > 0:
+			turn_around(Side.RIGHT)
 		else:
-			$AnimatedSprite.play("run")
-			if vel.x > 0:
-				turn_around(Side.RIGHT)
+			turn_around(Side.LEFT)
+		
+		if is_on_floor():
+			if floor( abs(vel.x) ) == 0: #  abs(-0.0001) = 0.0001 -> floor(0.0001) = 0
+				$AnimatedSprite.play("idle")
 			else:
-				turn_around(Side.LEFT)
+				$AnimatedSprite.play("run")
+		else:
+			$AnimatedSprite.play("jump")
+			if vel.y >= 0:
+				$AnimatedSprite.play("fall")
 
 func turn_around(side : int):
 	if side == Side.LEFT:

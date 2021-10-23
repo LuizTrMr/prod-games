@@ -59,6 +59,7 @@ extents = Vector2( 24.5026, 27.5706 )
 ]]
 collision_mask = 18
 script = ExtResource( 2 )
+speed = 300
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 2, 2 )
@@ -77,8 +78,5 @@ disabled = true
 [node name="Collision" type="CollisionShape2D" parent="."]
 position = Vector2( 0.0382767, -4.34157 )
 shape = SubResource( 3 )
-
-[node name="Timer" type="Timer" parent="."]
 [connection signal="animation_finished" from="AnimatedSprite" to="." method="_on_AnimatedSprite_animation_finished"]
 [connection signal="frame_changed" from="AnimatedSprite" to="." method="_on_AnimatedSprite_frame_changed"]
-[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

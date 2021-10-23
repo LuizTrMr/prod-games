@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/Item.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/ItemDiamante.gd" type="Script" id=2]
+[ext_resource path="res://Sprite/Items/01.png" type="Texture" id=3]
+
+[node name="ItemDiamante" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Sprite" parent="." index="0"]
+scale = Vector2( 3, 3 )
+texture = ExtResource( 3 )
+[connection signal="body_entered" from="." to="." method="_on_ItemDiamante_body_entered"]

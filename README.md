@@ -22,6 +22,12 @@
 - [Aula 4](https://drive.google.com/file/d/1Y5d9XvzodYs0EK1eLhPiweS0SOv5-611/view)
 - [Aula 5](https://drive.google.com/file/d/1RjxHcsnuEZ32D7UzaeNBNtEdwJ4D_LqC/view)
 
+## Ferramentas :
+
+### Software simples para criação de música : [Bosca Ceoil](https://boscaceoil.net/)
+
+### Software para edição e manipulação de áudio : [Audacity](https://www.audacityteam.org/download/)
+
 ## Recursos :
 
 ### Sprites 2d de graça : 
